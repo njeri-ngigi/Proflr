@@ -1,0 +1,27 @@
+.app-dashboard {
+  padding: 8px;
+  height: 25px;
+  margin: 20px 0;
+  
+  #logo {
+    top: 0;
+    position: absolute;
+    font-family: "Lalezar";
+    cursor: default;
+  }
+
+  .register {
+    float: right;
+    span {
+      padding: 10px;
+      font-family: "Lalezar";
+      font-weight: bolder;
+    }
+
+    span:hover {
+      cursor: pointer;
+      text-decoration: underline;
+
+    }
+  }
+}

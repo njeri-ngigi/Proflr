@@ -127,7 +127,7 @@
     universal-analytics "^0.4.20"
     uuid "^3.3.2"
 
-"@angular/common@~8.0.1":
+"@angular/common@^8.0.3":
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/@angular/common/-/common-8.0.3.tgz#822b0c2d74ffafd096473596812ad6fca7876c17"
   integrity sha512-2YLYGVUf9eJZcocRmD3/9UHj4qFHt2t4ftDWJmrFM9zo2PZF+G5O9fASO7qoBbwpx3KFZtQO4dprKl2dFugRjg==

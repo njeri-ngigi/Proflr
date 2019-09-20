@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+import { IUserBio } from '../../models/user.model';
 
 @Component({
   selector: 'app-welcome',
@@ -7,11 +9,5 @@ import { Component } from '@angular/core';
 })
 
 export class WelcomeComponent {
-  username = 'Jane Doe';
-  userbio = 'What did you want to be when you grew up? An actor?\
-  An astronaut in training? Perhaps a professional fighter who plays Coachella?\
-  Or a fashion designer who holds a land-speed record?\
-  Idris Elba became all of the above.';
-  quoteFrom = 'Our Friends at SquareSpace';
-  imageUrl = 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260';
+  @Input() userBio: IUserBio;
 }

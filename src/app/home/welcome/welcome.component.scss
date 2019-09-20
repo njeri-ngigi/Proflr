@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani|Lalezar&display=swap');
-
 .app-welcome {
   display: flex;
   flex-wrap: wrap;
@@ -70,8 +68,6 @@
     }
    
     .quotes {
-      // margin-top: 50%;
-
       span {
         font-size: 1.5em;
         font-weight: bolder;
@@ -82,8 +78,6 @@
         align-items: justify;
         padding-left: 30px;
         padding-bottom: 10px;
-        // font-size: 0.8em;
-        // font-family: "Open Sans Condensed";
         font-family: "Rajdhani";
       }
     }

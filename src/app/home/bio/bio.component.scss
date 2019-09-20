@@ -1,0 +1,37 @@
+.app-bio {
+  padding: 5%;
+  margin-top: 3%;
+
+  hr {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0;
+  }
+
+  .app-bio-flex {
+    display: flex;
+    border: 1px solid black;
+    margin: 10% 5%;
+    padding: 4%;
+
+    .app-bio-name {
+      background-color: green;
+      padding: 3%;
+      align-self: center;
+      width: 15%;
+    }
+
+    .app-bio-text {
+      background-color: red;
+      padding: 0 3%;
+      border-left: 1px solid black;
+      h2 {
+        font-family: "Lalezar"
+      }
+      p {
+        font-family: "Rajdhani"
+      }
+    }
+
+  }
+}
